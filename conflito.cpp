@@ -56,7 +56,6 @@ class calc
  */
 void document::help(void)
 {
-    IFDEBUG("help()");
     /* printf("%s - %s\n", "conflito", "Teste conflito"); */
     cout << "conflito - Teste conflito\n";
     cout << "\nUsage: conflito\n\n";
@@ -74,7 +73,6 @@ void document::help(void)
  */
 void document::copyr(void)
 {
-    IFDEBUG("copyr()");
     cout << "conflito - Version " << VERSION << "\n";
     cout << "\nCopyright (C) 2022 Ruben Carlo Benante <rcb@beco.cc>, GNU GPL version 2 <http://gnu.org/licenses/gpl.html>. This  is  free  software: you are free to change and redistribute it. There is NO WARRANTY, to the extent permitted by law. USE IT AS IT IS. The author takes no responsability to any damage this software may inflige in your data.\n\n";
     return;
@@ -84,8 +82,9 @@ void document::copyr(void)
 /* calculadora */
 int calc::add(int a, int b)
 {
-    cout << "eh para somar";
-    return a+b;
+    int r = 0;
+    r = a + b;
+    return r;
 }
 
 /* ---------------------------------------------------------------------- */
@@ -95,13 +94,15 @@ int calc::add(int a, int b)
  */
 int main(void)
 {
-    document doc; /* create an object of a class */
-    int i; /* general index */
-    char s[SBUFF]; /* a string to hold ... */
-
+    int a = 3, b = 2, r = 0;
+    //document doc; /* create an object of a class */
+    calc result;
     /* code */
-    doc.help();
-    doc.copyr();
+
+    r = result.add(a, b);
+    cout << "resultado = " << r << "\n" << endl;
+    //doc.help();
+    //doc.copyr();
   
 }
 
