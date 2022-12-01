@@ -79,7 +79,7 @@ void document::copyr(void)
 }
 
 /* ---------------------------------------------------------------------- */
-/* calculadora */
+/* calculadoras */
 int calc::add(int a, int b)
 {
     int c;
