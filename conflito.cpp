@@ -84,8 +84,11 @@ void document::copyr(void)
 /* calculadora */
 int calc::add(int a, int b)
 {
-    c = a + b;
-    cout << "eh para somar";
+
+	int c;
+	c = a + b;
+	cout << "eh para somar";
+
     return c;
 }
 
