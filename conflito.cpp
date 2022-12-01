@@ -85,7 +85,7 @@ void document::copyr(void)
 int calc::add(int a, int b)
 {
     cout << "eh para somar";
-    return 1;
+    return a;
 }
 
 /* ---------------------------------------------------------------------- */
