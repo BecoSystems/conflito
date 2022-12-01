@@ -73,7 +73,6 @@ void document::help(void)
  */
 void document::copyr(void)
 {
-    cout << "conflito - Version " << VERSION << "\n";
     cout << "\nCopyright (C) 2022 Ruben Carlo Benante <rcb@beco.cc>, GNU GPL version 2 <http://gnu.org/licenses/gpl.html>. This  is  free  software: you are free to change and redistribute it. There is NO WARRANTY, to the extent permitted by law. USE IT AS IT IS. The author takes no responsability to any damage this software may inflige in your data.\n\n";
     return;
 }
