@@ -82,9 +82,9 @@ void document::copyr(void)
 /* calculadora */
 int calc::add(int a, int b)
 {
-    int r = 0;
-    r = a + b;
-    return r;
+    int c;
+	c = a + b;
+    return c;
 }
 
 /* ---------------------------------------------------------------------- */
@@ -100,7 +100,8 @@ int main(void)
     /* code */
 
     r = result.add(a, b);
-    cout << "resultado = " << r << "\n" << endl;
+    cout << "a = " << a << "\n" << "b = " << b << endl;
+    cout << "a + b = " << r << "\n" << endl;
     //doc.help();
     //doc.copyr();
   
