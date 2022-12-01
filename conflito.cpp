@@ -86,7 +86,7 @@ int calc::add(int a, int b)
 {
     cout << "eh para somar";
     x = a - b;
-    return 1;
+    return x;
 }
 
 /* ---------------------------------------------------------------------- */
