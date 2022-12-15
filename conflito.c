@@ -77,7 +77,7 @@ int f0(int x)
 }
 
 /* ---------------------------------------------------------------------- */
-/* f10 Nome completo, criar corpo */
+/* f10 Leonardo Correia Santos Galvao */
 
 /* ---------------------------------------------------------------------- */
 /* vi: set ai et ts=4 sw=4 tw=0 wm=0 fo=croql : C config for Vim modeline */
