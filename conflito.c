@@ -53,7 +53,6 @@ int f10(int x); /* funcao do Leonardo Correia santos Galvao */
 int main(void)
 {
     int i; /* general index */
-    int l; /*subi no pe de pera*/
     i = 1;
 
     i=f0(i);
@@ -77,7 +76,7 @@ int f0(int x)
 }
 
 /* ---------------------------------------------------------------------- */
-/* f10 Nome completo, criar corpo */
+/* f10 Nome completo, criar corpo aqui */
 
 /* ---------------------------------------------------------------------- */
 /* vi: set ai et ts=4 sw=4 tw=0 wm=0 fo=croql : C config for Vim modeline */
