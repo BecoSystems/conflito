@@ -45,6 +45,8 @@
 
 int f0(int x); /* funcao do professor */
 int f5(int x); /* funcao numero 6*/
+int f10(int x); /* funcao do Leonardo Correia santos Galvao */
+int f13(int x); /* funcao do Cicero Moacir Soares */
 
 /* ---------------------------------------------------------------------- */
 /* chama 18 funcoes
@@ -53,12 +55,10 @@ int f5(int x); /* funcao numero 6*/
 int main(void)
 {
     int i; /* general index */
-
     i = 1;
 
     i=f0(i);
     i=f5(i);
-
 
     printf("Valor final: %d\n", i);
     return EXIT_SUCCESS;
@@ -88,6 +88,31 @@ int f5(int x)
 }
 
 /* ---------------------------------------------------------------------- */
+/* f10 Leonardo Correia Santos Galvao*/
+
+/* ---------------------------------------------------------------------- */
+/* f12  Gabriel Costa*/
+
+int f12(void)
+ {
+ ;
+  printf("espero que haja conflito\n");
+     return EXIT_SUCCESS;
+ }
+
+
+/* ---------------------------------------------------------------------- */
+/* f13 Cicero */
+/* funcao do aluno */
+int f13 (int x)
+{
+   int y;
+
+   y = x-1;
+
+   return y;
+}
+
 /* vi: set ai et ts=4 sw=4 tw=0 wm=0 fo=croql : C config for Vim modeline */
 /* Template by Dr. Beco <rcb at beco dot cc> Version 20160612.142044      */
 
