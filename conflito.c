@@ -44,6 +44,7 @@
 /* prototypes */
 
 int f0(int x); /* funcao do professor */
+int f5(int x); /* funcao numero 6*/
 
 /* ---------------------------------------------------------------------- */
 /* chama 18 funcoes
@@ -56,12 +57,12 @@ int main(void)
     i = 1;
 
     i=f0(i);
+    i=f5(i);
 
 
     printf("Valor final: %d\n", i);
     return EXIT_SUCCESS;
 }
-
 
 /* ---------------------------------------------------------------------- */
 /* f0 Prof. Ruben */
@@ -74,7 +75,17 @@ int f0(int x)
 
     return y;
 }
+/* ---------------------------------------------------------------------- */
+/* f5 Vinicius Gomes Epifanio*/
+/* funcao numero 6 */
+int f5(int x)
+{
+    int z;
 
+    z = x+10;
+
+    return z;
+}
 
 /* ---------------------------------------------------------------------- */
 /* vi: set ai et ts=4 sw=4 tw=0 wm=0 fo=croql : C config for Vim modeline */
