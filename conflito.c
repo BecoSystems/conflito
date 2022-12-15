@@ -44,7 +44,7 @@
 /* prototypes */
 
 int f0(int x); /* funcao do professor */
-int f5(char x); /* funcao do Vinicius */
+int f5(int x); /* funcao numero 6*/
 int f10(int x); /* funcao do Leonardo Correia santos Galvao */
 int f13(int x); /* funcao do Cicero Moacir Soares */
 
@@ -65,7 +65,6 @@ int main(void)
     return EXIT_SUCCESS;
 }
 
-
 /* ---------------------------------------------------------------------- */
 /* f0 Prof. Ruben */
 /* funcao do professor */
@@ -77,16 +76,24 @@ int f0(int x)
 
     return y;
 }
-
 /* ---------------------------------------------------------------------- */
-/* f5 Vinicius */
-int f5(char x)
+/* f5 Vinicius Gomes Epifanio*/
+/* funcao numero 6 */
+int f5(int x)
 {
-    return x+1;
+    int z;
+
+    z = x+10;
+
+    return z;
 }
 
 /* ---------------------------------------------------------------------- */
-/* f10 Nome completo, criar corpo aqui */
+/* f10 Leonardo Correia Santos Galvao*/
+int f10(int x)
+{
+    ;
+}
 
 /* ---------------------------------------------------------------------- */
 /* f12  Gabriel Costa*/
