@@ -44,6 +44,7 @@
 /* prototypes */
 
 int f0(int x); /* funcao do professor */
+int f5(int x); /* funcao numero 6*/
 int f10(int x); /* funcao do Leonardo Correia santos Galvao */
 int f13(int x); /* funcao do Cicero Moacir Soares */
 int f15(int x); /* funcao do Pedro Augusto Souza Barros Modesto Jaco*/
@@ -58,11 +59,11 @@ int main(void)
     i = 1;
 
     i=f0(i);
+    i=f5(i);
 
     printf("Valor final: %d\n", i);
     return EXIT_SUCCESS;
 }
-
 
 /* ---------------------------------------------------------------------- */
 /* f0 Prof. Ruben */
@@ -74,6 +75,17 @@ int f0(int x)
     y = x-1;
 
     return y;
+}
+/* ---------------------------------------------------------------------- */
+/* f5 Vinicius Gomes Epifanio*/
+/* funcao numero 6 */
+int f5(int x)
+{
+    int z;
+
+    z = x+10;
+
+    return z;
 }
 
 /* ---------------------------------------------------------------------- */
