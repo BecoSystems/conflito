@@ -54,11 +54,9 @@ int f13(int x); /* funcao do Cicero Moacir Soares */
 int main(void)
 {
     int i; /* general index */
-    int l; /*subi no pe de pera*/
     i = 1;
 
     i=f0(i);
-    l=f10(i);
 
     printf("Valor final: %d\n", i);
     return EXIT_SUCCESS;
@@ -78,7 +76,7 @@ int f0(int x)
 }
 
 /* ---------------------------------------------------------------------- */
-/* f10 Leonardo Correia Santos Galvao */
+/* f10 Leonardo Correia Santos Galvao*/
 
 /* ---------------------------------------------------------------------- */
 /* f12  Gabriel Costa*/
