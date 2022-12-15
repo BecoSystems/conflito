@@ -46,6 +46,7 @@
 int f0(int x); /* funcao do professor */
 int f10(int x); /* funcao do Leonardo Correia santos Galvao */
 int f13(int x); /* funcao do Cicero Moacir Soares */
+int f15(int x); /* funcao do Pedro Augusto Souza Barros Modesto Jaco*/
 
 /* ---------------------------------------------------------------------- */
 /* chama 18 funcoes
@@ -77,7 +78,15 @@ int f0(int x)
 
 /* ---------------------------------------------------------------------- */
 /* f10 Leonardo Correia Santos Galvao*/
-
+/* ---------------------------------------------------------------------- */
+/* f15 Pedro */
+/* funcao do aluno */
+int f15 (int x)
+{
+int w;
+w = x-1;
+return w;
+ }
 /* ---------------------------------------------------------------------- */
 /* f12  Gabriel Costa*/
 
