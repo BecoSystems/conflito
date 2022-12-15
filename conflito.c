@@ -44,7 +44,7 @@
 /* prototypes */
 
 int f0(int x); /* funcao do professor */
-
+int f10(int x); /* funcao do Leonardo Correia santos Galvao */
 /* ---------------------------------------------------------------------- */
 /* chama 18 funcoes
  * retorna sucesso
@@ -52,11 +52,13 @@ int f0(int x); /* funcao do professor */
 int main(void)
 {
     int i; /* general index */
-
+    int l; /*subi no pe de pera
     i = 1;
 
-    i=f0(i);
+    l = 6;
 
+    i=f0(i);
+    l =f10(l);
 
     printf("Valor final: %d\n", i);
     return EXIT_SUCCESS;
