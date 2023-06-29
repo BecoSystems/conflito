@@ -44,6 +44,7 @@
 /* prototypes */
 
 int f0(int x); /* funcao do professor */
+int f1(int x); /* Prof. Ruben , outra */
 int f5(int x); /* funcao numero 6*/
 int f10(int x); /* funcao do Leonardo Correia santos Galvao */
 int f12(int x); /* func Gabriel Costa */
@@ -60,11 +61,12 @@ int main(void)
     i = 1;
 
     i=f0(i);
+    i=f1(i);
     i=f5(i);
     i=f10(i);
-    i=f15(i);
     i=f12(i);
     i=f13(i);
+    i=f15(i);
 
     printf("Valor final: %d\n", i);
     return EXIT_SUCCESS;
@@ -81,6 +83,14 @@ int f0(int x)
 
     return y;
 }
+
+/* ---------------------------------------------------------------------- */
+/* f1 Prof. Ruben outra */
+int f1(int x)
+{
+    return x/3;
+}
+
 /* ---------------------------------------------------------------------- */
 /* f5 Vinicius Gomes Epifanio*/
 /* funcao numero 6 */
