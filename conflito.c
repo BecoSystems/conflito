@@ -97,7 +97,7 @@ int f5(int x)
 /* f10 Leonardo Correia Santos Galvao*/
 int f10(int x)
 {
-    ;
+    return x*2;
 }
 
 /* ---------------------------------------------------------------------- */
