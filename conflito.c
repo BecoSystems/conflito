@@ -48,6 +48,7 @@ int f5(int x); /* funcao numero 6*/
 int f10(int x); /* funcao do Leonardo Correia santos Galvao */
 int f12(int x); /* func Gabriel Costa */
 int f13(int x); /* funcao do Cicero Moacir Soares */
+int f14(int x); /* funcao do Leonardo Correia Santos Galvao*/
 int f15(int x); /* funcao do Pedro Augusto Souza Barros Modesto Jaco*/
 
 /* ---------------------------------------------------------------------- */
