@@ -46,6 +46,7 @@
 int f0(int x); /* funcao do professor */
 int f5(int x); /* funcao numero 6*/
 int f10(int x); /* funcao do Leonardo Correia santos Galvao */
+int f12(int x); /* func Gabriel Costa */
 int f13(int x); /* funcao do Cicero Moacir Soares */
 int f15(int x); /* funcao do Pedro Augusto Souza Barros Modesto Jaco*/
 
@@ -61,6 +62,9 @@ int main(void)
     i=f0(i);
     i=f5(i);
     i=f10(i);
+    i=f15(i);
+    i=f12(i);
+    i=f13(i);
 
     printf("Valor final: %d\n", i);
     return EXIT_SUCCESS;
@@ -109,11 +113,9 @@ int f15 (int x)
 /* ---------------------------------------------------------------------- */
 /* f12  Gabriel Costa*/
 
-int f12(void)
+int f12(int x)
  {
- ;
-  printf("espero que haja conflito\n");
-     return EXIT_SUCCESS;
+     return x+1;
  }
 
 
