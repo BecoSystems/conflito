@@ -49,7 +49,9 @@ int f5(int x); /* funcao numero 6*/
 int f10(int x); /* funcao do Leonardo Correia santos Galvao */
 int f12(int x); /* func Gabriel Costa */
 int f13(int x); /* funcao do Cicero Moacir Soares */
+int f14(int x); /* funcao do Leonardo Correia Santos Galvao*/
 int f15(int x); /* funcao do Pedro Augusto Souza Barros Modesto Jaco*/
+int f16(int x); /* funcao do Jose Lucas De Lima Moura*/
 
 /* ---------------------------------------------------------------------- */
 /* chama 18 funcoes
@@ -67,6 +69,7 @@ int main(void)
     i=f12(i);
     i=f13(i);
     i=f15(i);
+    i=f16(i);
 
     printf("Valor final: %d\n", i);
     return EXIT_SUCCESS;
@@ -140,7 +143,25 @@ int f13 (int x)
 
    return y;
 }
+/*----------------------------------------------------------------------- */
+/* f14 Leonardo */
+int f14 (int x)
+{
+    x=0;
+    return x;
+}
 
+/*----------------------------------------------------------------------- */
+/* f16 Jose Lucas */
+/* funcao do aluno */
+int f16 (int x)
+{
+    int a;
+    a = x+2;
+    return a;
+}
+
+/*----------------------------------------------------------------------- */
 /* vi: set ai et ts=4 sw=4 tw=0 wm=0 fo=croql : C config for Vim modeline */
 /* Template by Dr. Beco <rcb at beco dot cc> Version 20160612.142044      */
 
