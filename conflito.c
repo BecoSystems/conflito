@@ -52,6 +52,7 @@ int f13(int x); /* funcao do Cicero Moacir Soares */
 int f14(int x); /* funcao do Leonardo Correia Santos Galvao*/
 int f15(int x); /* funcao do Pedro Augusto Souza Barros Modesto Jaco*/
 int f16(int x); /* funcao do Jose Lucas De Lima Moura*/
+int f17(int x); /* funcao do Gabriel Dos Santos Albuquerque */
 
 /* ---------------------------------------------------------------------- */
 /* chama 18 funcoes
@@ -70,6 +71,7 @@ int main(void)
     i=f13(i);
     i=f15(i);
     i=f16(i);
+    i=f17(i);
 
     printf("Valor final: %d\n", i);
     return EXIT_SUCCESS;
@@ -160,6 +162,17 @@ int f16 (int x)
     a = x+2;
     return a;
 }
+
+/*----------------------------------------------------------------------- */
+/* f17 Gabriel Dos Santos*/
+/* funcao do aluno */
+int f17 (int x)
+{
+    int a;
+    a = x+4;
+    return a;
+
+ }
 
 /*----------------------------------------------------------------------- */
 /* vi: set ai et ts=4 sw=4 tw=0 wm=0 fo=croql : C config for Vim modeline */
