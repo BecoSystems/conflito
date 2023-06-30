@@ -44,6 +44,7 @@
 /* prototypes */
 
 int f0(int x); /* funcao do professor */
+int f1(int x); /* Prof. Ruben , outra */
 int f5(int x); /* funcao numero 6*/
 int f10(int x); /* funcao do Leonardo Correia santos Galvao */
 int f12(int x); /* func Gabriel Costa */
@@ -62,12 +63,13 @@ int main(void)
     i = 1;
 
     i=f0(i);
+    i=f1(i);
     i=f5(i);
     i=f10(i);
-    i=f16(i);
-    i=f15(i);
     i=f12(i);
     i=f13(i);
+    i=f15(i);
+    i=f16(i);
 
     printf("Valor final: %d\n", i);
     return EXIT_SUCCESS;
@@ -84,6 +86,14 @@ int f0(int x)
 
     return y;
 }
+
+/* ---------------------------------------------------------------------- */
+/* f1 Prof. Ruben outra */
+int f1(int x)
+{
+    return x/3;
+}
+
 /* ---------------------------------------------------------------------- */
 /* f5 Vinicius Gomes Epifanio*/
 /* funcao numero 6 */
@@ -137,7 +147,8 @@ int f13 (int x)
 /* f14 Leonardo */
 int f14 (int x)
 {
-    return 0;
+    x=0;
+    return x;
 }
 
 /*----------------------------------------------------------------------- */
@@ -150,6 +161,7 @@ int f16 (int x)
     return a;
 }
 
+/*----------------------------------------------------------------------- */
 /* vi: set ai et ts=4 sw=4 tw=0 wm=0 fo=croql : C config for Vim modeline */
 /* Template by Dr. Beco <rcb at beco dot cc> Version 20160612.142044      */
 
