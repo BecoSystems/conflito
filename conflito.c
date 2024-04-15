@@ -169,7 +169,7 @@ int f16 (int x)
 int f17 (int x)
 {
     int a;
-    a = x+6;
+    a = x+7;
     return a;
 }
 
